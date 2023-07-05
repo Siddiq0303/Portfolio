@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*{
+    font-family: 'Rancho', cursive;
+}
+
+
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("/images/bg.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+.bannerTitle{
+    font-size: 4rem; 
+}
+.bannerDesc{
+    font-size: 3rem;
+}
+.aboutTitle{
+    padding-top: 5%;
+    margin-bottom: 4%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+.card{
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.card:hover{
+    background-color: #17202a;
+    border: 5px solid goldenrod;
+    color: aliceblue;
+}
+.img-fluid:hover{
+    border: 5px solid goldenrod;
+}
+
+#skills{
+    width: 100%;
+    background: #17202a;
+}
+.skillsTitle{
+    padding-top: 6%;
+    padding-bottom: 4%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+    color: aliceblue;
+}
+.pythonskill{
+    margin-top: 6%;
+}
+.htmlSkill{
+    margin-top: 6%;
+}
+.cssSkill{
+    margin-top: 6%;
+}
+.jsSkill{
+    margin-top: 6%;
+}
+.csSkill{
+    margin-top: 6%;
+}
+#about{
+    width: 100%;
+}
+.certificatesTitle{
+    padding-top: 5%;
+    margin-bottom: 4%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+    color: aliceblue;
+}
+.contactTitle{
+    text-align: center;
+    padding-top: 5%;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.copyright{
+    color: aliceblue;
+    text-align: center;
+}
+.card-text{
+    font-size: 1.25rem;
+}
+#certifications{
+    background: #17202a;
+    padding-bottom: 4%;
+}
+.button{
+    text-align: center;
+}
+
+
