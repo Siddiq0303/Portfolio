@@ -115,8 +115,10 @@
     text-align: center;
 }
 .google-map {
-     padding-bottom: 50%;
-     position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
 
 .google-map iframe {
@@ -125,6 +127,5 @@
      left: 0;
      top: 0;
      position: absolute;
-    max-width: 720px;
 }
 
